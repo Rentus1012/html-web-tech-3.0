@@ -1,0 +1,169 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>온라인 카페 메뉴판</title>
+    <style>
+        table { background-color: #003800; color: white; border: 20px solid black; padding: 20px; }
+        tr { height: 50px; }
+        a { color: white; }
+        .menu-title { font-size: 40px; font-weight: bold; }
+        .menu-subtitle { font-size: 25px; padding-left: 5px; }
+        .item-title { font-size: 17px; font-weight: bold; }
+        .item-subtitle { font-size: 14px; }
+        .item-header-name { width: 500px; }
+        .item-header-price { width: 80px; }
+        .item-footer { text-align: center; }
+        .item-footer-title { font-size: 17px; }
+        .item-footer-subtitle { font-size: 14px; }
+    </style>
+    <script src="../jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function()
+        {
+            
+            console.log('Ready!!');
+            $.ajax({
+                url:'menu-item.json'
+            });
+        });
+    
+    </script>
+</head>
+<body>
+
+<h1>온라인 카페 메뉴판</h1>
+
+<table>
+    <tr>
+        <td colspan='4'>
+            <span class='menu-title'>COFFEE & ESPRESSO</span>
+            <span class='menu-subtitle'>커피 & 에소프레소</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td class='item-header-name'>[DECAF] 모든 에스프레소 디카페인 변경 가능 (디카페인 300원 추가)</td>
+        <td class='item-header-price'>Tall<br>355ml</td>
+        <td class='item-header-price'>Grande<br>473ml</td>
+        <td class='item-header-price'>Venti<br>591ml</td>
+    </tr>
+
+    <tr>
+        <td>
+            <span class='item-title'>
+                <a href='./detail-item1.html'>디카페인 스타벅스 돌체 라떼</a>
+            </span>
+            <br>
+            <span class='item-subtitle'>Decaf Starbucks Dolce Latte</span>
+        </td>
+        <td>5,9</td>
+        <td>6,4</td>
+        <td>6,9</td>
+    </tr>
+
+    <tr>
+        <td>
+            <span class='item-title'>
+                <a href='./detail-item2.html'>디카페인 카라멜 마끼아또</a>
+            </span>
+            <br>
+            <span class='item-subtitle'>Decaf Caramel Macchiato</span>
+        </td>
+        <td class='menu-item-price'>5,9</td>
+        <td class='menu-item-price'>6,4</td>
+        <td class='menu-item-price'>6,9</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>
+                <a href='./detail-item3.html'>스타벅스 돌체 라떼</a>
+            </span>
+            <br>
+            <span class='item-subtitle'>Starbucks Dolce Latte</span>
+        </td>
+        <td class='menu-item-price'>5,6</td>
+        <td class='menu-item-price'>6,1</td>
+        <td class='menu-item-price'>6,6</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>화이트 초콜릿 모카</span>
+            <br>
+            <span class='item-subtitle'>White Chocolate Mocha</span>
+        </td>
+        <td class='menu-item-price'>5,6</td>
+        <td class='menu-item-price'>6,1</td>
+        <td class='menu-item-price'>6,6</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>디카페인 카페 라떼</span>
+            <br>
+            <span class='item-subtitle'>Decaf Caffe Latte</span>
+        </td>
+        <td class='menu-item-price'>4,9</td>
+        <td class='menu-item-price'>5,4</td>
+        <td class='menu-item-price'>5,9</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>카페 라떼</span>
+            <br>
+            <span class='item-subtitle'>Caffe Latte</span>
+        </td>
+        <td class='menu-item-price'>4,6</td>
+        <td class='menu-item-price'>5,1</td>
+        <td class='menu-item-price'>5,6</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>카푸치노</span>
+            <br>
+            <span class='item-subtitle'>Cappuccino</span>
+        </td>
+        <td class='menu-item-price'>4,6</td>
+        <td class='menu-item-price'>5,1</td>
+        <td class='menu-item-price'>5,6</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>디카페인 카페 아메리카노</span>
+            <br>
+            <span class='item-subtitle'>Decaf Caffe Americano</span>
+        </td>
+        <td class='menu-item-price'>4,4</td>
+        <td class='menu-item-price'>4,9</td>
+        <td class='menu-item-price'>5,4</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>카페 아메리카노</span>
+            <br>
+            <span class='item-subtitle'>Caffe Americano</span>
+        </td>
+        <td class='menu-item-price'>4,1</td>
+        <td class='menu-item-price'>4,6</td>
+        <td class='menu-item-price'>5,1</td>
+    </tr>
+    <tr>
+        <td>
+            <span class='item-title'>오늘의 커피 [Only Hot]</span>
+            <br>
+            <span class='item-subtitle'>Brewed Coffee</span>
+        </td>
+        <td class='menu-item-price'>3,8</td>
+        <td class='menu-item-price'>4,3</td>
+        <td class='menu-item-price'>4,8</td>
+    </tr>
+
+    <tr>
+        <td colspan='4' class='item-footer'>
+            <span class='item-footer-title'>따듯한 음료는 숏 사이즈 가능 (톨 사이즈와 가격차이 500원)</span>
+            <span class='item-footer-subtitle'>* 일부 음료 제외</span>
+        </td>
+    </tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+  {
+    "kname": "디카페인 스타벅스 돌체 라떼",
+    "ename": "Decaf Starbucks Dolce Latte",
+    "tall": 5900,
+    "grande": 6400,
+    "venti": 6900,
+    "changeDecaf": false
+  },
+  {
+    "kname": "디카페인 카라멜 마끼아또",
+    "ename": "Decaf Caramel Macchiato",
+    "tall": 5900,
+    "grande": 6400,
+    "venti": 6900,
+    "changeDecaf": false
+  },
+  {
+    "kname": "스타벅스 돌체 라떼",
+    "ename": "Starbucks Dolce Latte",
+    "tall": 5600,
+    "grande": 6100,
+    "venti": 6600,
+    "changeDecaf": true
+  },
+  {
+    "kname": "화이트 초콜릿 모카",
+    "ename": "White Chocolate Mocha",
+    "tall": 5600,
+    "grande": 6100,
+    "venti": 6600,
+    "changeDecaf": true
+  },
+  {
+    "kname": "디카페인 카페 라떼",
+    "ename": "Decaf Caffe Latte",
+    "tall": 5900,
+    "grande": 5400,
+    "venti": 5900,
+    "changeDecaf": false
+  },
+  {
+    "kname": "카페 라떼",
+    "ename": "Caffe Latte",
+    "tall": 4600,
+    "grande": 5100,
+    "venti": 5600,
+    "changeDecaf": true
+  },
+  {
+    "kname": "카푸치노",
+    "ename": "Cappuccino",
+    "tall": 4600,
+    "grande": 5100,
+    "venti": 5600,
+    "changeDecaf": true
+  },
+  {
+    "kname": "디카페인 카페 아메리카노",
+    "ename": "Decaf Caffe Americano",
+    "tall": 4400,
+    "grande": 4900,
+    "venti": 5400,
+    "changeDecaf": false
+  },
+  {
+    "kname": "카페 아메리카노",
+    "ename": "Decaf Caffe Americano",
+    "tall": 4100,
+    "grande": 4600,
+    "venti": 5100,
+    "changeDecaf": true
+  },
+  {
+    "kname": "오늘의 커피 [Only Hot]",
+    "ename": "Brewed Coffee",
+    "tall": 3800,
+    "grande": 4300,
+    "venti": 4800,
+    "changeDecaf": false
+  }
+]
